@@ -2,5 +2,5 @@ README
 
 ```bash
 npm install
- npx parcel src/index.html
+npx parcel src/index.html
 ```
