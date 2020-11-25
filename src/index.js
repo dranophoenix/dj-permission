@@ -12,7 +12,7 @@ function getPilotsRanks() {
         }
       };
 
-    xhttp.open("GET", "http://localhost/pilots/ranks", true);
+    xhttp.open("GET", "http://localhost:8080/pilots/ranks", true);
     xhttp.send();
 }
 let button = document.getElementById("req");
